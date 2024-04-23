@@ -10,10 +10,10 @@ myC = c;
 }
 public int getA(){return myA;}
 public int getB(){return myB;}
-public int getC() {return myC;}
+public int getC(){return myC;}
 public void setA(int newA) {myA = newA;}
 public void setB(int newB) {myB = newB;}
-public void setC (int newC) {myC = newC;}
+public void setC(int newC) {myC = newC;}
 public int getSlope(){
 return -(double)myA / (double)myB;
 }
